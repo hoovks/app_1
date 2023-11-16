@@ -20,7 +20,7 @@ jobs:
       - name: Synchronizacja do FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: 127.208.64.121
+          server: 172.208.64.121
           username:  ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server-dir: app_1/
